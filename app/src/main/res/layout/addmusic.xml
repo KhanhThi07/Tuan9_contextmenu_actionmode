@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtmusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music name:"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edittxtmusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmusic"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="10dp"
+        android:padding="20dp"
+        android:textColorHint="@color/starBlue" />
+
+    <Button
+        android:layout_width="158dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/edittxtmusic"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/button"
+        android:text="SAVE and EXIT"
+        android:textColor="#fff" />
+</RelativeLayout>
